@@ -1,0 +1,81 @@
+/* style.css */
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    border-left: 4px solid #E5A70D;
+    padding-left: 8px;
+  }
+
+#superbody {
+    background-color:black;
+}
+
+/* cover */
+
+#cover {
+    background: #222 url('img/sh02.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width:100%;
+}
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('img/kotek_2.JPG') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+    
+}
+
+#foter-main {
+    background: #222;
+    color:white;
+    font-size:0.8rem;
+    padding:2.5rem;
+}
+
+#feature-one {
+    padding: 6rem 0;
+}
+
+#feature-two {
+    padding: 6rem 0;
+}
+
+.jumbotron-fluid {
+    padding-top: 16rem;
+    background-image: url(img/jambotron_tlo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: burlywood;
+}
+
+.tytul {
+    text-shadow: 2px 3px 6px black;
+}
+
+.card-text {
+	text-align: justify;
+}
